@@ -1,0 +1,5 @@
+numpy>=2.0
+PyYAML==6.0.2
+pytest
+# Frozen scientific runs reported in the manuscript used PyTorch 2.2.2 on arm64.
+torch==2.2.2

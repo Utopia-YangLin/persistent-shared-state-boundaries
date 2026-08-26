@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite the manuscript and this repository."
+title: "When Does Persistent Shared State Matter? Functional Boundaries, Solution Accessibility, and Causal Mechanisms in Modular Recurrent Systems"
+type: software
+authors:
+  - family-names: Lin
+    given-names: Qiyang
+affiliation: "University of Melbourne"
+repository-code: "https://github.com/Utopia-YangLin/persistent-shared-state-boundaries"
+date-released: 2026-08-26
