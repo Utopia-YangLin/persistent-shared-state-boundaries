@@ -1,0 +1,23 @@
+{
+  "source_repository": "Utopia-YangLin/workspace-broadcast-boundaries",
+  "source_branch": "agent/post-scope-px-mag-v0.1",
+  "note": "Publication-facing summaries are sanitized derivatives. Original artifacts remain identified by source path, Git blob SHA, and byte size; machine-local checkpoint paths are intentionally not republished.",
+  "artifacts": [
+    {"study":"primary_scope_availability","path":"reports/sgw_native_scope_availability/QUALIFICATION_RESULTS_v0.1.json","blob_sha":"2b827859b92573c16f15ec127f88238e7b9da739","size_bytes":70175},
+    {"study":"primary_q0","path":"reports/sgw_native_scope_availability/Q0_STATIC_AUDIT_v0.1.json","blob_sha":"eb32ae4d3fe2672ed3ef3f7bf62831ecf10b951e","size_bytes":8530},
+    {"study":"causal_decomposition","path":"reports/sgw_native_scope_availability/CAUSAL_DECOMPOSITION_v0.1.json","blob_sha":"746a17e31c87d34c32826017d003c34b77669687","size_bytes":18292},
+    {"study":"solution_accessibility","path":"reports/final_basin_runtime_reduced/FINAL_BASIN_RUNTIME_REDUCED_CHARACTERIZATION_v0.2.json","blob_sha":"61c6e923d74b0d9894877a373e537e2d38c12b83","size_bytes":1158240},
+    {"study":"px1_consumer_rebinding","path":"reports/post_scope_px1/PX1_QUALIFICATION_RESULTS_v0.1.json","blob_sha":"46832566004d2c5504db016779c5fe3aebe99d59","size_bytes":110088},
+    {"study":"px1_q0","path":"reports/post_scope_px1/PX1_Q0_STATIC_AUDIT_v0.1.json","blob_sha":"f063c37ebe6906208ff3c129bb9fac54e42447d5","size_bytes":14043},
+    {"study":"mag1b_state_only","path":"reports/post_scope_mag1b/MAG1B_QUALIFICATION_RESULTS_v0.1.json","blob_sha":"f02b3e2464825519cd340221f7982999acc516c9","size_bytes":74044},
+    {"study":"mag1b_q0","path":"reports/post_scope_mag1b/MAG1B_Q0_STATIC_AUDIT_v0.1.json","blob_sha":"ec42fd63a6ca5323b8bed18133b7002aa543e63a","size_bytes":5132},
+    {"study":"v1_rule_generalization","path":"reports/post_scope_v1/V1_QUALIFICATION_RESULTS_v0.1.json","blob_sha":"6310ea188d52ea4d6c1e9fb5b3ddb16bd0a5edf3","size_bytes":60548},
+    {"study":"v1_q0","path":"reports/post_scope_v1/V1_Q0_STATIC_AUDIT_v0.1.json","blob_sha":"9fb336c09d14f933a5ed0b58b399a022aa9241e0","size_bytes":2375},
+    {"study":"t1_source_faithful_transportability","path":"reports/post_scope_t1/T1_QUALIFICATION_RESULTS_v0.1.json","blob_sha":"b865acb1602f88f2c75890317ae403206b89d575","size_bytes":50935},
+    {"study":"t1_q0","path":"reports/post_scope_t1/T1_Q0_STATIC_AUDIT_v0.1.json","blob_sha":"d7b18cd1665b44199222704b5668db90c9ec39dd","size_bytes":10656},
+    {"study":"b0e_endpoint_qualification","path":"reports/post_scope_b0e/B0E_ENDPOINT_QUALIFICATION_RESULTS_v0.1.json","blob_sha":"ac8768e1426b96edff85c54a18398e2a6273de77","size_bytes":32382},
+    {"study":"b0e_q0","path":"reports/post_scope_b0e/B0E_Q0_STATIC_AUDIT_v0.1.json","blob_sha":"4d068d1105ae620d2fc6fe52fa51558c34747c8f","size_bytes":6019},
+    {"study":"b0l_local_screen","path":"reports/post_scope_b0l/B0L_SCREEN_RESULTS_v0.2.json","blob_sha":"4d1a3477f8d109af47d77788ba36fd61bf698ebd","size_bytes":33690},
+    {"study":"b0l_q0","path":"reports/post_scope_b0l/B0L_Q0_STATIC_AUDIT_v0.2.json","blob_sha":"6ebd6a2f9b6264745eb6d3139b46791ddea3f617","size_bytes":12786}
+  ]
+}

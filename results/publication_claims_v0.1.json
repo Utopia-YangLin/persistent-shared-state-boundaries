@@ -1,0 +1,91 @@
+{
+  "schema_version": "persistent-shared-state-boundaries-publication-claims-v0.1",
+  "derived": true,
+  "derivation_policy": "Only manuscript-facing quantities from frozen result artifacts; no new model forwards, seeds, or optimization.",
+  "chance_accuracy": 0.25,
+  "test_status": {"gate":"CLOSED","model_forward_count":0},
+  "primary_scope_availability": {
+    "seeds": [20275801, 20275802],
+    "scientific_units": 32,
+    "engineering_failures": 0,
+    "cells": {
+      "consumer_local_current": {"persistent":[1.0,1.0],"reset":[1.0,1.0],"local":[1.0,1.0],"nocomm":[0.25,0.25]},
+      "consumer_local_past_only": {"persistent":[1.0,1.0],"reset":[1.0,1.0],"local":[1.0,1.0],"nocomm":[0.25,0.25]},
+      "cross_scope_current": {"persistent":[1.0,1.0],"reset":[1.0,1.0],"local":[1.0,1.0],"nocomm":[0.25,0.25]},
+      "cross_scope_past_only": {
+        "persistent":[1.0,1.0],
+        "reset":[0.5810546875,0.570068359375],
+        "local":[0.58251953125,0.572509765625],
+        "nocomm":[0.25,0.25]
+      }
+    }
+  },
+  "solution_accessibility": {
+    "host":"separate final-clean DSTAR_TEMPORAL characterization; not a scope-by-availability cell",
+    "primary_units":288,
+    "adam_n_per_architecture":64,
+    "adam_counts": {
+      "persistent":{"pass":58,"basin":6,"other_fail":0},
+      "reset":{"pass":60,"basin":4,"other_fail":0},
+      "local":{"pass":63,"basin":1,"other_fail":0}
+    },
+    "matched_24_seed_counts": {
+      "adam":{"persistent":{"pass":23,"basin":1,"other_fail":0},"reset":{"pass":23,"basin":1,"other_fail":0}},
+      "full_conventional_recipe":{"persistent":{"pass":0,"basin":0,"other_fail":24},"reset":{"pass":0,"basin":0,"other_fail":24}},
+      "sgd_momentum":{"persistent":{"pass":0,"basin":0,"other_fail":24},"reset":{"pass":0,"basin":0,"other_fail":24}}
+    },
+    "selected_continuations": {
+      "persistent":{"n":6,"both_recover":2,"constant_only":1,"warm_only":1,"neither":2},
+      "reset":{"n":4,"both_recover":3,"constant_only":0,"warm_only":0,"neither":1},
+      "recover_at_least_one_by_7500":{"count":7,"n":10}
+    }
+  },
+  "causal_decomposition": {
+    "broadcast_timing": {
+      "cross_scope_current_reset":{"all":1.0,"intermediate_only":1.0,"final_only":0.25,"none":0.25},
+      "cross_scope_past_only_persistent":{"all":1.0,"intermediate_only":1.0,"final_only":1.0,"none":0.25}
+    },
+    "carry_removal_mean_drop": {
+      "consumer_local_past_only":0.5217285,
+      "cross_scope_current":0.3690186,
+      "cross_scope_past_only":0.52734375
+    },
+    "flags": {
+      "CURRENT_CONTEXT_BROADCAST_CAUSAL":true,
+      "PAST_CONTEXT_BROADCAST_CAUSAL":true,
+      "PERSISTENCE_CAUSAL_MAIN":true,
+      "PERSISTENCE_SCOPE_SPECIFIC":false,
+      "PERSISTENCE_X_BROADCAST_SYNERGY":false
+    }
+  },
+  "validation_envelope": {
+    "consumer_rebinding_p_minus_reset_gap_means":[0.43396,0.43237,0.42883],
+    "memory_access_geometry":{"canonical":0.425293,"state_only":0.431274},
+    "same_construct_rule":{"axis_aligned":0.430542,"cross_v":0.434814},
+    "source_faithful_transportability": {
+      "p_minus_reset_seed":[0.434326,0.438232],
+      "p_minus_direct_seed":[0.433838,0.436035]
+    },
+    "pooling":"none"
+  },
+  "theory_boundary": {
+    "b0e_remote_past": {
+      "persistent":[1.0,1.0],"reset":[0.5625,0.5625],"local":[0.5625,0.5625],"nocomm":[0.25,0.25]
+    },
+    "b0e_proposed_local_endpoint": {
+      "persistent":[1.0,1.0],"reset":[1.0,1.0],"local":[1.0,1.0],"nocomm":[0.25,0.25]
+    },
+    "b0l": {
+      "candidates":["Q1_OBSOLETE_WRITE_TURNOVER","Q2_SEGREGATED_LOCAL_RETENTION","Q3_RECEIVER_LOCAL_ROLE_BINDING","Q4_TWO_EVENT_SPLIT_CGAO"],
+      "paired_groups":8,
+      "scientific_units":16,
+      "persistent_accuracy_every_candidate_seed":1.0,
+      "local_accuracy_every_candidate_seed":1.0,
+      "positive_candidates":[],
+      "selected_candidate":null,
+      "fifth_candidate_opened":false
+    },
+    "supported_theory":"local/communication sufficiency -> Persistent shared-state advantage under joint cross-scope and temporal-unavailability demand",
+    "unsupported_stronger_theory":"symmetric Local-dominant <-> Persistent-dominant architecture crossover"
+  }
+}
