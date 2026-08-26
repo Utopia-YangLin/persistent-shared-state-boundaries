@@ -470,6 +470,10 @@ class TaskV22CleanFamilyModel(nn.Module):
         self.workspace: CleanInnovationSharedWorkspace | None = None
         self.rcl340: CleanRCL340Composer | None = None
 
+        # Preserve the exact frozen-reference module registration order:
+        # Global = input/recurrent/workspace/readout;
+        # Local = input/recurrent/readout/rcl340;
+        # NoComm = input/recurrent/readout.
         if architecture in (PERSISTENT, RESET):
             self.workspace = CleanInnovationSharedWorkspace(experimental_seed)
 
