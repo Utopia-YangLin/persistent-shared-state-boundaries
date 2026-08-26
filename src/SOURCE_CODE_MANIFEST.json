@@ -1,0 +1,26 @@
+{
+  "schema_version": "persistent-shared-state-boundaries-source-code-manifest-v0.1",
+  "source_repository": "Utopia-YangLin/workspace-broadcast-boundaries",
+  "source_branch": "agent/post-scope-px-mag-v0.1",
+  "policy": "Only files whose public Git blob SHA equals the frozen source blob SHA are marked exact_mirror. Publication-only package shims and helper files are marked separately.",
+  "exact_mirrors": [
+    {"public_path":"src/workspace_broadcast_boundaries/architectures/task_v2_2_clean_family_v0_1.py","source_blob_sha":"1d192f8786132d48188125b9bc371598ae60c497"},
+    {"public_path":"src/workspace_broadcast_boundaries/sgw_native_scope_availability_v0_1.py","source_blob_sha":"6c1037a7b23279b6f2398b8e5779351e958086bf"},
+    {"public_path":"src/workspace_broadcast_boundaries/architectures/sgw_native_scope_availability_family_v0_1.py","source_blob_sha":"3d53471db4cf2dcd4d02d8219f9433318f6e318d"},
+    {"public_path":"src/workspace_broadcast_boundaries/architectures/sgw_native_causal_intervention_family_v0_1.py","source_blob_sha":"2b88238ccb7e5495408b2000f19ce2ff0c8e1e15"},
+    {"public_path":"tools/run_sgw_native_scope_availability_qualification_v0_1.py","source_blob_sha":"d4f27e86565a9608253ad4a2dbb6f061e953d8e7"}
+  ],
+  "publication_helpers": [
+    "src/workspace_broadcast_boundaries/architectures/__init__.py",
+    "reproduce/verify_publication_results.py"
+  ],
+  "frozen_source_identities_not_mirrored_in_v0_1": [
+    {"role":"basin characterization runner","source_path":"tools/run_final_basin_runtime_reduced_v0_2.py","source_blob_sha":"1534f2f7b9231a9e8e6250959be8cb0f2857fd2e"},
+    {"role":"consumer rebinding runner","source_path":"tools/run_px1_consumer_role_binding_qualification_v0_1.py","source_blob_sha":"3156c71dee7a9fffc7bcf4f11ca080c14af62546"},
+    {"role":"state-only memory-access runner","source_path":"tools/run_mag1b_state_only_boundary_replication_v0_1.py","source_blob_sha":"e7878e0e518e7ab47e2283e838c8a89a4c16d43d"},
+    {"role":"same-construct rule runner","source_path":"tools/run_v1_same_construct_rule_generalization_v0_1.py","source_blob_sha":"a90ecaf69aec6ea038bb158c2ef478dd524c2487"},
+    {"role":"source-faithful transportability runner","source_path":"tools/run_t1_source_faithful_transportability_v0_1.py","source_blob_sha":"56227889376c607c67929405c1bb6c6945758a4e"},
+    {"role":"B0E endpoint runner","source_path":"tools/run_b0e_local_global_diagonal_v0_1.py","source_blob_sha":"db6ec57095c16c0ccab84633b801f1a610c6e338"},
+    {"role":"B0L local mechanism screen runner","source_path":"tools/run_b0l_local_mechanism_screen_v0_2.py","source_blob_sha":"79f2d289345a122a9b65c20c56c3271bb2c99cb5"}
+  ]
+}
